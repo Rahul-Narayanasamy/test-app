@@ -25,14 +25,14 @@ export default function Reservation() {
         dispatch(addCustomer({ id: id, name: e.currentTarget.innerText, orders: []  }))
     }
   return (
-    <div className='container'>
+    <div className='container border border-success p-3'>
         <h4 className="fw-bold">
             Reservation
         </h4>
 
         <div className="row">
-            <div className="col border border-success p-3">
-                <div className="mb-3 border border-success border-3">
+            <div className="col">
+                <div className="mb-3">
                   <label htmlFor="name" className="form-label mt-3">Enter Name:</label>
                   <input type="text" value={enteredName} onChange={(e) => setEnteredName(e.target.value)} className="form-control mt-3 mb-3" id="name" placeholder="Ex: Bob" />
                 </div>

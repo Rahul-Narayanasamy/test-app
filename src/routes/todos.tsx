@@ -19,14 +19,14 @@ export default function Todos() {
     }
 
   return (
-    <div className='container'>
+    <div className='container border'>
         <h2 className="fw-bold text-primary text-center">
             Todos
         </h2>
 
         <div className="row">
             <div className="col">
-                <div className="mb-3 border border-success border-3">
+                <div className="mb-3 ">
                   <label htmlFor="name" className="form-label mt-3">Enter Todo Item:</label>
                   <input type="text" value={enteredName} onChange={(e) => setEnteredName(e.target.value)} className="form-control mt-3 mb-3" id="name" placeholder="Enter todo item" />
                 </div>
