@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import MainContent from './components/MainContent';
 
 function App() {
   return (

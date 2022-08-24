@@ -4,8 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Users from './routes/users';
-import User from './routes/user';
 
 // import bootstrap from 'bootstrap'
 // import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,7 +15,6 @@ import './styles.scss';
 import ProductsPage from './routes/products';
 import ProductDetail from './routes/product-detail';
 import Home from './routes/home';
-import About from './routes/about';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
 import Counter from './routes/counter';
