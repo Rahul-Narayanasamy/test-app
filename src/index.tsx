@@ -21,6 +21,7 @@ import Counter from './routes/counter';
 import Cart from './routes/cart';
 import Reservation from './routes/reservation';
 import Todos from './routes/todos';
+import RemoteUser from './routes/RemoteUser';
 
 
 const root = ReactDOM.createRoot(
@@ -37,6 +38,7 @@ root.render(
             <Route path='counter' element={<Counter />}></Route>
             <Route path='todos' element={<Todos />}></Route>
             <Route path='cart' element={<Cart />}></Route>
+            <Route path='fetch' element={<RemoteUser />}></Route>
             <Route path='products' element={<ProductsPage />}></Route>
             <Route path='products/:productId' element={<ProductDetail />}></Route>
             <Route path='*' element={<main className='text-center'><h3>No matched route found</h3></main>}></Route>
